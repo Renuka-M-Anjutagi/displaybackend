@@ -1,26 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
 <<<<<<< HEAD
-
+node_modules/
+package-lock.json
+client/
 =======
->>>>>>> 3de2ef5 (My first commit of)
-
-# misc
-.DS_Store
+node_modules/
+package-lock.json
+client/
+>>>>>>> e813d22dfc968b68f5ad56157a62da637c2e4e60
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
